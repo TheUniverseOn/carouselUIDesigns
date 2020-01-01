@@ -270,5 +270,6 @@ position: absolute;
 	.container{
     width: 90%;
     font-size: 10px; 
+    height: 150vh; 
 	}
 } 
