@@ -119,7 +119,7 @@ div > h1{
 
 .container {
     font-family: 'Josefin Sans', sans-serif; 
-    height: 200vh;
+    height: 167vh;
     width: 100vw; 
     background:  url(images/24.\ Sky\ Blue.png) no-repeat center; 
     margin-bottom: 50%;
@@ -260,3 +260,14 @@ position: absolute;
     
 
 }
+
+ @media(min-width: 650px) and (max-width: 750px ){
+	.card{
+		width: 90%;
+	}
+} 
+@media(min-width: 0px) and (max-width: 649px ){
+	.container{
+		width: 95%;
+	}
+} */
