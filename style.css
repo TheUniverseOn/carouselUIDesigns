@@ -1,0 +1,120 @@
+html, body {
+  margin: 0;
+  background-color: #E3E8EE; 
+  font-family:-apple-system , BlinkMacSystemFont , "Segoe UI" , "Roboto" , "Helvetica Neue" , "Ubuntu" , sans-serif;
+
+
+}
+.button {
+  background:#132358; 
+  margin: auto; 
+  display: block; 
+  
+  border-radius: 10px;
+  color:#ced7f4; 
+  border: 1px solid #132358;
+  font-size: 1.1em; 
+  outline: none;
+  transition-duration: 0.55s;
+  padding: 15px;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  z-index: 5;
+  box-shadow: inset 0 -2px 0 hsla(0, 0%, 0%, .15), inset 0 -4px 0 hsla(0, 0%, 0%, .1);
+  padding:0.35em 1.2em;
+  border:0.1em solid #2442a5;
+  /* margin:0 0.3em 0.3em 0; */
+  border-radius: 8px;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family:'Roboto',sans-serif;
+  font-weight:300;
+  color:#FFFFFF;
+  text-align:center;
+  transition: all 0.2s;
+  width: auto; 
+}
+.button:hover {
+  background-color: #2442a5;
+   border: 1px solid #365ad3;
+   
+}
+.button#left {
+  left: 0;
+}
+.button#right {
+  right: 0;
+}
+.button#play,
+.button#stop {
+  top: 90%;
+  left: 0;
+  width: auto;
+  display: block; 
+  margin-left: 50%;
+  margin-bottom: 50%; 
+  position: absolute; 
+  height: auto;
+  padding:0.4em 1.2em;
+border:0.1em solid #2442a5;
+/* margin:0 0.3em 0.3em 0; */
+border-radius: 20px;
+box-sizing: border-box;
+text-decoration:none;
+font-family:'Roboto',sans-serif;
+font-weight:800;
+color:#FFFFFF;
+text-align:center;
+transition: all 0.2s;
+
+
+  
+}
+.button#stop {
+  display: none;
+}
+.slider-wrapper {
+  position: relative;
+  text-align: center; 
+  box-shadow: 0 3px 5px hsla(0, 0%, 0%, .1);
+}
+.slider {
+  max-height: 100vh;
+  margin: 0;
+  box-shadow: 0 3px 5px hsla(0, 0%, 0%, .1);
+  padding: 0; 
+  overflow-y: hidden;
+}
+.slider > li {
+  float: left;
+  list-style: none;
+  width: 100%;
+}
+.slider > li > img {
+  display: none;
+  transition-duration: 0.28s;
+   height: 100vw;
+    width: 100vw;
+}
+.slider > li > img.curr {
+  display: block;
+}
+.slider > li > img{
+  width: 100%; 
+  height: auto;
+}
+
+div > h1{
+  font-family:-apple-system , BlinkMacSystemFont , "Segoe UI" , "Roboto" , "Helvetica Neue" , "Ubuntu" , sans-serif;
+  width: 2fr; 
+  height: 2em; 
+  background-color: white; 
+  box-shadow:  0 7px 14px 0 rgba(60,66,87, 0.12), 0 3px 6px 0 rgba(0,0,0, 0.12);
+  color:#3D4DAB;  
+  text-align: center; 
+  padding-top: 10px
+
+}
+
+
