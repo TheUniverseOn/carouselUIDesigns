@@ -119,7 +119,7 @@ div > h1{
 
 .container {
   font-family: 'Josefin Sans', sans-serif; 
-  height: 130vh;
+  height: 150vh;
   width: 130vw; 
   background:  url(images/24.\ Sky\ Blue.png) no-repeat center; 
 
@@ -137,11 +137,11 @@ div > h1{
 
 }
 .card-wrapper{
-  height: auto;
-  width: auto; 
+  height: 1200px;
+  width: 400px; 
   border: 1px solid #fff; 
   position: absolute; 
-  top: 50%; 
+  top: 80%; 
   left: 50%; 
   transform: translate(-50%, -50%);
   background:  url(images/24.\ Sky\ Blue.png) no-repeat center; 
