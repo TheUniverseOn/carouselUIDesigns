@@ -119,7 +119,7 @@ div > h1{
 
 .container {
   font-family: 'Josefin Sans', sans-serif; 
-  height: 200vh;
+  height: 1200vh;
   width: 130vw; 
   background:  url(images/24.\ Sky\ Blue.png) no-repeat center; 
   padding-bottom: 1.3em; 
@@ -143,7 +143,7 @@ div > h1{
   width: 450px; 
   border: 1px solid #fff; 
   position: absolute; 
-  top: 800px;
+  top: 60%;
    left: 50%; 
   transform: translate(-50%, -50%);
   background:  url(images/24.\ Sky\ Blue.png) no-repeat center; 
