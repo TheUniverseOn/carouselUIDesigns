@@ -262,13 +262,13 @@ position: absolute;
 }
 
  @media(min-width: 650px) and (max-width: 750px ){
-	.card, .card-wrapper{
+	.card{
 		width: 90%;
 	}
 } 
 @media(min-width: 0px) and (max-width: 649px ){
 	.container{
     width: 90%;
-    font-size: 14px; 
+    font-size: 10px; 
 	}
 } 
