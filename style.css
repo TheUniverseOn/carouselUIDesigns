@@ -122,6 +122,7 @@ div > h1{
   height: 150vh;
   width: 130vw; 
   background:  url(images/24.\ Sky\ Blue.png) no-repeat center; 
+  /* padding-bottom: 2em; */
 
 }
 .card-img{
