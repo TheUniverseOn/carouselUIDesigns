@@ -123,6 +123,7 @@ div > h1{
   width: 130vw; 
   background:  url(images/24.\ Sky\ Blue.png) no-repeat center; 
   padding-bottom: 1.3em; 
+  overflow: scroll;
 
 }
 .card-img{
