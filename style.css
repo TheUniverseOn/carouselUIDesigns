@@ -2,7 +2,7 @@ html, body {
   margin: 0;
   background:  url(images/24.\ Sky\ Blue.png) no-repeat center; 
   font-family:-apple-system , BlinkMacSystemFont , "Segoe UI" , "Roboto" , "Helvetica Neue" , "Ubuntu" , sans-serif;
-padding-bottom: 2em;
+
 
 }
 .button {
@@ -109,9 +109,9 @@ div > h1{
   font-family:-apple-system , BlinkMacSystemFont , "Segoe UI" , "Roboto" , "Helvetica Neue" , "Ubuntu" , sans-serif;
   width: 2fr; 
   height: 2em; 
-  background-color:url(images/24.\ Sky\ Blue.png) no-repeat center; 
+  background-color: white; 
   box-shadow:  0 7px 14px 0 rgba(60,66,87, 0.12), 0 3px 6px 0 rgba(0,0,0, 0.12);
-  color: white;  
+  color:#3D4DAB;  
   text-align: center; 
   padding-top: 10px
 
@@ -119,19 +119,17 @@ div > h1{
 
 .container {
   font-family: 'Josefin Sans', sans-serif; 
-  height: 1200vh;
-  width: 130vw; 
+  height: 100vh;
+  width: 100vw; 
   background:  url(images/24.\ Sky\ Blue.png) no-repeat center; 
-  padding-bottom: 1.3em; 
-  
 
 }
 .card-img{
- width: 12em; 
- height: 12em;
+ width: 16em; 
+ height: 16em;
  border-radius: 50%;
  object-fit: cover;
- margin-top: 80px; 
+ margin-top: 15px; 
  border: 10px solid #fff; 
  padding: 10px;
  box-shadow: 0 0 50px  rgba(255,230,69,1) 3.3%, rgba(255,157,73,1) 96% ); ; 
@@ -139,12 +137,12 @@ div > h1{
 
 }
 .card-wrapper{
-  height: 1200px;
-  width: 450px; 
+  height: 900px;
+  width: 460px; 
   border: 1px solid #fff; 
   position: absolute; 
-  top: 60%;
-   left: 50%; 
+  top: 50%; 
+  left: 50%; 
   transform: translate(-50%, -50%);
   background:  url(images/24.\ Sky\ Blue.png) no-repeat center; 
   border-radius: 5px; 
