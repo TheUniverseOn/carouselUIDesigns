@@ -119,7 +119,7 @@ div > h1{
 
 .container {
   font-family: 'Josefin Sans', sans-serif; 
-  height: 170vh;
+  height: 200vh;
   width: 130vw; 
   background:  url(images/24.\ Sky\ Blue.png) no-repeat center; 
   padding-bottom: 1.3em; 
@@ -127,11 +127,11 @@ div > h1{
 
 }
 .card-img{
- width: 16em; 
- height: 16em;
+ width: 12em; 
+ height: 12em;
  border-radius: 50%;
  object-fit: cover;
- margin-top: 15px; 
+ margin-top: 80px; 
  border: 10px solid #fff; 
  padding: 10px;
  box-shadow: 0 0 50px  rgba(255,230,69,1) 3.3%, rgba(255,157,73,1) 96% ); ; 
@@ -143,7 +143,7 @@ div > h1{
   width: 450px; 
   border: 1px solid #fff; 
   position: absolute; 
-  top: 60%;
+  top: 800px;
    left: 50%; 
   transform: translate(-50%, -50%);
   background:  url(images/24.\ Sky\ Blue.png) no-repeat center; 
