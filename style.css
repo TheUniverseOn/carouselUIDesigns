@@ -269,6 +269,6 @@ position: absolute;
 @media(min-width: 0px) and (max-width: 649px ){
 	.container{
     width: 90%;
-    font
+    font-size: 14px; 
 	}
 } 
