@@ -261,8 +261,4 @@ position: absolute;
 
 }
 
- @media(min-width: 650px) and (max-width: 750px ){
-	.card{
-		width: 90%;
-	}
-} 
+
